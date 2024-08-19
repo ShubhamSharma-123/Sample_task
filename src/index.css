@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-gradient {
+    
+    background-image: linear-gradient(to right, rgba(203, 227, 255, 0.06), rgba(111, 178, 255, 0.4), rgba(203, 227, 255, 0.06), rgba(174, 210, 251, 0.4));
+  }
+  .custom-border-gradient {
+    border-width: 2px; /* Adjust the border width as needed */
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(134, 159, 251, 1), rgba(54, 97, 255, 0.44), rgba(54, 97, 255, 1)) 1;
+  }
+
+
+  .custom-border-gradient1 {
+    border-width: 2px; /* Adjust the border width as needed */
+    border-style: solid;
+    border-color: rgba(121, 121, 121, 1);
+  }
+  
